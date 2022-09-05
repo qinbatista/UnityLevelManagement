@@ -36,7 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Sample/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs" />
      <Compile Include="Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
+     <Compile Include="Assets/Sample/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs" />
+     <Compile Include="Assets/Sample/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets/Sample/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs" />
+     <Compile Include="Assets/Sample/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" />
+     <Compile Include="Assets/Sample/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -834,17 +840,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{9ec25a6c-4b2d-5881-96f9-e5593afd7b3b}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{ca8d4cc3-ff8b-ca43-53f6-66c938355396}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{44841dff-12f0-bd6a-bd2e-0359e50c9a7a}</Project>
-      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
