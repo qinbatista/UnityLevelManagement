@@ -256,7 +256,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6044094668709518487}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -2372760177830980245}
+        m_TargetAssemblyTypeName: LevelManagement.Menu, Assembly-CSharp
+        m_MethodName: OnPlayPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6044094668793640851
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,7 +660,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6044094668960640276}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -2372760177830980245}
+        m_TargetAssemblyTypeName: LevelManagement.Menu, Assembly-CSharp
+        m_MethodName: OnCreditsPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6044094669154972872
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,6 +1135,7 @@ GameObject:
   - component: {fileID: 6044094670048538923}
   - component: {fileID: 6044094670048538920}
   - component: {fileID: 6044094670048538921}
+  - component: {fileID: -2372760177830980245}
   m_Layer: 5
   m_Name: UIMainMenu
   m_TagString: Untagged
@@ -1202,6 +1227,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &-2372760177830980245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6044094670048538918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e816bc6e58015414d88598926456bc5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6044094670182024611
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,7 +1360,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6044094670182024612}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -2372760177830980245}
+        m_TargetAssemblyTypeName: LevelManagement.Menu, Assembly-CSharp
+        m_MethodName: OnSettingsPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6044094670229025953
 GameObject:
   m_ObjectHideFlags: 0
@@ -1665,4 +1714,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6044094670533066803}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -2372760177830980245}
+        m_TargetAssemblyTypeName: LevelManagement.Menu, Assembly-CSharp
+        m_MethodName: OnBackPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

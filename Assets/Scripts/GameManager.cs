@@ -19,15 +19,19 @@ namespace SampleGame
         private bool _isGameOver;
         public bool IsGameOver { get { return _isGameOver; } }
 
-
+        public static GameManager Instance { get; private set; }
         // initialize references
         private void Awake()
         {
+            if (Instance == null) { Instance = this; } else { Destroy(gameObject); }
             _player = Object.FindObjectOfType<ThirdPersonCharacter>();
             _objective = Object.FindObjectOfType<Objective>();
             _goalEffect = Object.FindObjectOfType<GoalEffect>();
         }
-
+        void OnDestroy()
+        {
+            if (Instance == this) { Instance = null; }
+        }
         // end the level
         public void EndLevel()
         {

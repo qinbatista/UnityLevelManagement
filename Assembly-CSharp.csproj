@@ -104,7 +104,7 @@
      <Compile Include="Assets/Sample/Standard Assets/Characters/RollerBall/Scripts/Ball.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" />
-     <Compile Include="Assets/Sample/SampleGame/Scripts/GameManager.cs" />
+     <Compile Include="Assets/Scripts/GameManager.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" />
      <Compile Include="Assets/Sample/SampleScenes/Menu/Scripts/PauseMenu.cs" />
      <Compile Include="Assets/Sample/Standard Assets/2D/Scripts/Platformer2DUserControl.cs" />
@@ -143,6 +143,8 @@
      <Compile Include="Assets/Sample/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" />
      <Compile Include="Assets/Sample/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" />
      <Compile Include="Assets/Sample/Standard Assets/ParticleSystems/Scripts/Hose.cs" />
+     <Compile Include="Assets/Scripts/Menu.cs" />
+     <Compile Include="Assets/Scripts/MenuManager.cs" />
      <None Include="Assets/Sample/Standard Assets/Prototyping/Shaders/WorldCoordDiffuse.shader" />
      <None Include="Assets/Sample/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Sample/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
