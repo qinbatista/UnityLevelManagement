@@ -54,6 +54,7 @@
      <Compile Include="Assets/Sample/Standard Assets/Cameras/Scripts/HandHeldCam.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Cameras/Scripts/FreeLookCam.cs" />
+     <Compile Include="Assets/Scripts/Menu/MenuMain.cs" />
      <Compile Include="Assets/Sample/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" />
      <Compile Include="Assets/Sample/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs" />
@@ -89,6 +90,7 @@
      <Compile Include="Assets/Sample/Standard Assets/Utility/FPSCounter.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Utility/SimpleActivatorMenu.cs" />
      <Compile Include="Assets/Sample/SampleScenes/Scripts/ParticleSceneControls.cs" />
+     <Compile Include="Assets/Scripts/MenuManager.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Utility/SimpleMouseRotator.cs" />
@@ -99,6 +101,7 @@
      <Compile Include="Assets/Sample/Standard Assets/Utility/SmoothFollow.cs" />
      <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" />
+     <Compile Include="Assets/Scripts/Menu/Menu.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Utility/WaypointCircuit.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Utility/TimedObjectDestructor.cs" />
      <Compile Include="Assets/Sample/Standard Assets/Characters/RollerBall/Scripts/Ball.cs" />
@@ -143,8 +146,9 @@
      <Compile Include="Assets/Sample/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" />
      <Compile Include="Assets/Sample/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" />
      <Compile Include="Assets/Sample/Standard Assets/ParticleSystems/Scripts/Hose.cs" />
-     <Compile Include="Assets/Scripts/Menu.cs" />
-     <Compile Include="Assets/Scripts/MenuManager.cs" />
+     <Compile Include="Assets/Scripts/Menu/MenuCredits.cs" />
+     <Compile Include="Assets/Scripts/Menu/MenuSetting.cs" />
+     <Compile Include="Assets/Scripts/Menu/MenuPause.cs" />
      <None Include="Assets/Sample/Standard Assets/Prototyping/Shaders/WorldCoordDiffuse.shader" />
      <None Include="Assets/Sample/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Sample/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />

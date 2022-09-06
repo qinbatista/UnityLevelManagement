@@ -435,7 +435,7 @@ GameObject:
   - component: {fileID: 6805834306611456733}
   - component: {fileID: 6805834306611456732}
   - component: {fileID: 6805834306611456707}
-  - component: {fileID: 563862219595255814}
+  - component: {fileID: 4921204360505821727}
   m_Layer: 5
   m_Name: UICredits
   m_TagString: Untagged
@@ -527,7 +527,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &563862219595255814
+--- !u!114 &4921204360505821727
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -536,7 +536,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6805834306611456705}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e816bc6e58015414d88598926456bc5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a73e6a8f93794d8a8f476d8f4b3cabd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6805834306989506002
@@ -1028,9 +1028,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 563862219595255814}
-        m_TargetAssemblyTypeName: LevelManagement.Menu, Assembly-CSharp
-        m_MethodName: OnBackPress
+      - m_Target: {fileID: 4921204360505821727}
+        m_TargetAssemblyTypeName: LevelManagement.MenuCredits, Assembly-CSharp
+        m_MethodName: OnBackPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

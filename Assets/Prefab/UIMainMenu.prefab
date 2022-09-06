@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.50980395}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -234,7 +234,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -257,8 +257,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -2372760177830980245}
-        m_TargetAssemblyTypeName: LevelManagement.Menu, Assembly-CSharp
+      - m_Target: {fileID: 3104875952762604701}
+        m_TargetAssemblyTypeName: LevelManagement.MenuMain, Assembly-CSharp
         m_MethodName: OnPlayPressed
         m_Mode: 1
         m_Arguments:
@@ -661,8 +661,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -2372760177830980245}
-        m_TargetAssemblyTypeName: LevelManagement.Menu, Assembly-CSharp
+      - m_Target: {fileID: 3104875952762604701}
+        m_TargetAssemblyTypeName: LevelManagement.MenuMain, Assembly-CSharp
         m_MethodName: OnCreditsPressed
         m_Mode: 1
         m_Arguments:
@@ -1135,7 +1135,7 @@ GameObject:
   - component: {fileID: 6044094670048538923}
   - component: {fileID: 6044094670048538920}
   - component: {fileID: 6044094670048538921}
-  - component: {fileID: -2372760177830980245}
+  - component: {fileID: 3104875952762604701}
   m_Layer: 5
   m_Name: UIMainMenu
   m_TagString: Untagged
@@ -1227,7 +1227,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &-2372760177830980245
+--- !u!114 &3104875952762604701
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1236,7 +1236,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6044094670048538918}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e816bc6e58015414d88598926456bc5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 96376d2cbe0074a75894924ba842781c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6044094670182024611
@@ -1361,8 +1361,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -2372760177830980245}
-        m_TargetAssemblyTypeName: LevelManagement.Menu, Assembly-CSharp
+      - m_Target: {fileID: 3104875952762604701}
+        m_TargetAssemblyTypeName: LevelManagement.MenuMain, Assembly-CSharp
         m_MethodName: OnSettingsPressed
         m_Mode: 1
         m_Arguments:
@@ -1715,9 +1715,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -2372760177830980245}
-        m_TargetAssemblyTypeName: LevelManagement.Menu, Assembly-CSharp
-        m_MethodName: OnBackPress
+      - m_Target: {fileID: 3104875952762604701}
+        m_TargetAssemblyTypeName: LevelManagement.MenuMain, Assembly-CSharp
+        m_MethodName: OnBackPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
