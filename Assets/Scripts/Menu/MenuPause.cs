@@ -9,7 +9,7 @@ namespace LevelManagement
         [SerializeField] int mainMenuIndex = 0;
         public void OnResumePressed()
         {
-            Time.timeScale = 0;
+            Time.timeScale = 1;
             base.OnBackPressed();
         }
         public void OnRestartPressed()

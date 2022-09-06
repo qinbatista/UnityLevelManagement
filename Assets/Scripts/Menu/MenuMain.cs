@@ -10,6 +10,10 @@ namespace LevelManagement
         {
             // GameManager.Instance.ReloadLevel();
             SampleGame.GameManager.Instance.ReloadLevel();
+            if (MenuManager.Instance != null && MenuGame.Instance != null)
+            {
+                MenuManager.Instance.OpenMenu(MenuGame.Instance);
+            }
         }
         public void OnSettingsPressed()
         {

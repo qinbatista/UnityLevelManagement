@@ -9,6 +9,8 @@ namespace LevelManagement
         public Menu mainMenuPrefab;
         public Menu settingsMenuPrefab;
         public Menu creditsMenuPrefab;
+        public Menu GameMenuPrefab;
+        public Menu PauseMenuPrefab;
         Stack<Menu> _menuStack = new Stack<Menu>();
         [SerializeField] Transform _menuParent;
         static MenuManager _instance;
@@ -16,7 +18,9 @@ namespace LevelManagement
 
         void Awake()
         {
-            if (_instance != null) { Destroy(gameObject); } else { _instance = this; InitializeMenus(); }
+            if (_instance != null) { Destroy(gameObject); } else { _instance = this;}
+            InitializeMenus();
+            DontDestroyOnLoad(gameObject);
         }
         void OnDestroy()
         {
@@ -29,7 +33,8 @@ namespace LevelManagement
                 GameObject menuParentObject = new GameObject("Menus");
                 _menuParent = menuParentObject.transform;
             }
-            Menu[] menuPrefab = { mainMenuPrefab, settingsMenuPrefab, creditsMenuPrefab };
+            DontDestroyOnLoad(_menuParent.gameObject);
+            Menu[] menuPrefab = { mainMenuPrefab, settingsMenuPrefab, creditsMenuPrefab, GameMenuPrefab, PauseMenuPrefab };
             foreach (Menu prefab in menuPrefab)
             {
                 if (prefab != null)

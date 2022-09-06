@@ -149,6 +149,7 @@
      <Compile Include="Assets/Scripts/Menu/MenuCredits.cs" />
      <Compile Include="Assets/Scripts/Menu/MenuSetting.cs" />
      <Compile Include="Assets/Scripts/Menu/MenuPause.cs" />
+     <Compile Include="Assets/Scripts/Menu/MenuGame.cs" />
      <None Include="Assets/Sample/Standard Assets/Prototyping/Shaders/WorldCoordDiffuse.shader" />
      <None Include="Assets/Sample/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Sample/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
